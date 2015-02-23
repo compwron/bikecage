@@ -1,4 +1,7 @@
 class Account
+	def initialize args={}
+	end
+
 	def funds
 		20
 	end
@@ -9,5 +12,8 @@ class Account
 
 	def name
 		"Name1"
+	end
+
+	def start_charge cage, date_time
 	end
 end
